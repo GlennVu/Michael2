@@ -1,0 +1,11 @@
+{
+  "name": "makeschoool-challenge",
+  "dependencies": {
+    "express": "^4.16.4",
+    "twitter-proxy": "^2.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "install": "cd frontend && npm install && npm run build"
+  }
+}
